@@ -1,0 +1,295 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pycnick/ontologies/2020/8/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyname="ttp://www.semanticweb.org/pycnick/ontologies/2020/8/untitled-ontology-2">
+    <Prefix name="owl" name="ttp://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" name="ttp://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" name="ttp://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" name="ttp://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" name="ttp://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class name="Analytical_overview"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Arcticle"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Artistic_literature"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Biography"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Description_of_the_invention"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Direction"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Educational"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Epic"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Epic_prose"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Essays"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Historical_outline"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Lyrics"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Manifesto"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Mass_information"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Modern_novella"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Novella"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Novella_of_New_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Outline"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Parable"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Parabola"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Poetry"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Popular"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Popular_story"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Portrait_outline"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Problem_outline"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Prose"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Religious"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Renaissance_novella"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Research_Article"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Research_oriented"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Romance"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Scientific_literature"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Scientific_report"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Scientific_report_abstracts"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Story"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Thesis"/>
+    </Declaration>
+    <Declaration>
+        <Class name="Travel_outline"/>
+    </Declaration>
+    <Declaration>
+        <Class name="folk"/>
+    </Declaration>
+    <Declaration>
+        <Class name="monograph"/>
+    </Declaration>
+    <SubClassOf>
+        <Class name="Analytical_overview"/>
+        <Class name="Research_Article"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Arcticle"/>
+        <Class name="Popular_story"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Artistic_literature"/>
+        <Class name="Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Biography"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Description_of_the_invention"/>
+        <Class name="Research_oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Drama"/>
+        <Class name="Artistic_literature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Educational"/>
+        <Class name="Mass_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Epic"/>
+        <Class name="Artistic_literature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Epic_prose"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Essays"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Historical_outline"/>
+        <Class name="Outline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Lyrics"/>
+        <Class name="Artistic_literature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Manifesto"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Mass_information"/>
+        <Class name="Scientific_literature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Modern_novella"/>
+        <Class name="Novella"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Novella"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Novella_of_New_Time"/>
+        <Class name="Novella"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Outline"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Parable"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Parabola"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Poetry"/>
+        <Class name="Artistic_literature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Popular"/>
+        <Class name="Mass_information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Popular_story"/>
+        <Class name="Popular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Portrait_outline"/>
+        <Class name="Outline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Problem_outline"/>
+        <Class name="Outline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Prose"/>
+        <Class name="Artistic_literature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Religious"/>
+        <Class name="Parable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Renaissance_novella"/>
+        <Class name="Novella"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Research_Article"/>
+        <Class name="Research_oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Research_oriented"/>
+        <Class name="Scientific_literature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Romance"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Scientific_literature"/>
+        <Class name="Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Scientific_report"/>
+        <Class name="Research_oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Scientific_report_abstracts"/>
+        <Class name="Research_oriented"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Story"/>
+        <Class name="Prose"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Thesis"/>
+        <Class name="Research_Article"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="Travel_outline"/>
+        <Class name="Outline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="folk"/>
+        <Class name="Parable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class name="monograph"/>
+        <Class name="Popular_story"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
